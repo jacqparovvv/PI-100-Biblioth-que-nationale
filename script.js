@@ -1,7 +1,7 @@
 // ETO YUNG LATITUDE AND LONGITUDE
 const realLocation = {
   lat: 48.8335,   //BIBLIOTHEQUE NATINALE
-  lng: -2.3722
+  lng: 2.3722
 };
 
 let userGuess = null;
@@ -82,4 +82,5 @@ document.getElementById("submitBtn").onclick = function () {
   map.off('click');
   document.getElementById("submitBtn").disabled = true;
 };
+
 
